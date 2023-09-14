@@ -23,9 +23,12 @@ public class MyFirstProject {
         System.out.print("Type ypur second name:");
         String lastname = scanner.nextLine();
         System.out.println("Hello JPTV22" + " " + firstname + " " + lastname);
-        scanner.close();*/
+        scanner.close();
         int k =  10;
-        System.out.println(k);
+        System.out.println(k);*/
+        
+        App app = new App();
+        app.run();
     }
     
 }

@@ -1,3 +1,11 @@
 Scanner scanner;
 scanner = new Scanner();
 create new object = operator new
+main() = boss of the program
+Object obj = new Object();
+App app = new App();
+toString для вывода состояние класса или обьекта
+конструкторы нужны для создания начального состояние обьекта
+gist add .
+git status
+git commit -m "frfrfrfr"
