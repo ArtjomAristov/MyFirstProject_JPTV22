@@ -23,6 +23,7 @@ public class App {
             System.out.println("0. Leave From Program");
             System.out.println("1. Демонстрация работы со строками");
             System.out.println("2. Демонстрация работы с массивами");
+            System.out.println("3. Демонстрация работы с калькулятором");
             System.out.print("Number of a task: ");
             int task = scanner.nextInt(); scanner.nextLine();
             switch (task) {
@@ -37,13 +38,17 @@ public class App {
                     break;
                 case 2:
                     System.out.println("1. Выбрана Демонстрация работы с массивами");
-
+                case 3:
+                    System.out.println("Выбранадемонстрации работы с калькулятором");
+                    Calculator calculator = new Calculator();
+                    calculator.calc();
                     break;
                 default:
                     System.out.println("Please choose number from the list");
         }}while(repeat);
         }
-    }
+
+
     
     
     
